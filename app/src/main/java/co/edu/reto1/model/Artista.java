@@ -12,4 +12,5 @@ public class Artista implements Serializable {
     private int imagen;
     private String nombre;
     private  String descripcion;
+    private Cancion cancion;
 }

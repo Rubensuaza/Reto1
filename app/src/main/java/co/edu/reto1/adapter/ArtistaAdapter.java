@@ -75,7 +75,8 @@ public class ArtistaAdapter extends BaseAdapter implements Filterable {
             public void onClick(View v) {
                 Intent intent= new Intent(context,ActivitySong.class);
 
-                //intent.putExtra("artistaData",item);
+                intent.putExtra("artistaData",item);
+
                 context.startActivity(intent); }
 
         });

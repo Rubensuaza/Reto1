@@ -20,6 +20,7 @@ import butterknife.ButterKnife;
 import co.edu.reto1.R;
 import co.edu.reto1.adapter.ArtistaAdapter;
 import co.edu.reto1.model.Artista;
+import co.edu.reto1.model.Cancion;
 
 
 public class ArtistFragment extends Fragment {
@@ -33,6 +34,11 @@ public class ArtistFragment extends Fragment {
     ArtistaAdapter artistaAdapter;
 
     private List<Artista> artistas;
+    private Cancion cancionArtista1=new Cancion(R.raw.colors,"Colors","Black Pumas");
+    private Cancion cancionArtista2=new Cancion(R.raw.contra,"contrapunto para humano y computadora","jueves no viernes");
+    private Cancion cancionArtista3=new Cancion(R.raw.soda,"En la Ciudad de la Furia","Soda Stero");
+    private Cancion cancionArtista4=new Cancion(R.raw.song,"Little black submarines","El camino");
+    private Cancion cancionArtista5=new Cancion(R.raw.link,"no more sorrow","Minutes to Midnigth");
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -72,11 +78,11 @@ public class ArtistFragment extends Fragment {
 
     public List<Artista> cargarLista(){
         artistas=new ArrayList<>();
-        artistas.add(new Artista(R.drawable.black_pumas,getString(R.string.nombre_black_pumas),getString(R.string.descripcion_Black_Pumas)));
-        artistas.add(new Artista(R.drawable.el_cuarteto_de_nos,getString(R.string.nombre_cuarteto_de_nos),getString(R.string.descripcion_cuarteto_de_nos)));
-        artistas.add(new Artista(R.drawable.soda_stereo,getString(R.string.nombre_soda_stero),getString(R.string.descripcion_soda_stero)));
-        artistas.add(new Artista(R.drawable.black_keys,getString(R.string.nombre_black_keys),getString(R.string.descripcion_black_keys)));
-        artistas.add(new Artista(R.drawable.linking_park,getString(R.string.nombre_linking_park),getString(R.string.descripcion_linking_park)));
+        artistas.add(new Artista(R.drawable.black_pumas,getString(R.string.nombre_black_pumas),getString(R.string.descripcion_Black_Pumas),cancionArtista1));
+        artistas.add(new Artista(R.drawable.el_cuarteto_de_nos,getString(R.string.nombre_cuarteto_de_nos),getString(R.string.descripcion_cuarteto_de_nos),cancionArtista2));
+        artistas.add(new Artista(R.drawable.soda_stereo,getString(R.string.nombre_soda_stero),getString(R.string.descripcion_soda_stero),cancionArtista3));
+        artistas.add(new Artista(R.drawable.black_keys,getString(R.string.nombre_black_keys),getString(R.string.descripcion_black_keys),cancionArtista4));
+        artistas.add(new Artista(R.drawable.linking_park,getString(R.string.nombre_linking_park),getString(R.string.descripcion_linking_park),cancionArtista5));
     return artistas;
     }
 
