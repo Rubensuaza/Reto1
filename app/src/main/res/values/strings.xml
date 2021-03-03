@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Reto1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_artist">Artistas</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="titulo">Artistas</string>
+    <string name="digite_nombre_artista">Buscar...</string>
+    <string name="nombre_black_pumas">Black Pumas</string>
+    <string name="descripcion_Black_Pumas">Black Pumas es una banda de soul psicodélico de Austin, Texas, dirigida por el cantante y compositor Eric Burton y el guitarrista y productor Adrian Quesada.1​2​ El grupo recibió su primera nominación al premio Grammy en 2020 como Mejor Artista Nuevo en la 62º edición (sexagésima segunda).</string>
+    <string name="nombre_cuarteto_de_nos">El Cuarteto de Nos</string>
+    <string name="descripcion_cuarteto_de_nos">El Cuarteto de Nos o estilizado como Cuarteto de Nos, es un grupo uruguayo de rock alternativo y rap rock con elementos pop, electrónicos y fusión de varios géneros, formado en 19801​ en Montevideo, Uruguay.</string>
+    <string name="nombre_soda_stero">Soda Stereo</string>
+    <string name="descripcion_soda_stero">Soda Stereo es una banda argentina de rock formada originalmente en Buenos Aires en 1982 por Gustavo Cerati (voz, guitarra), Héctor «Zeta» Bosio (bajo) y Carlos Alberto Ficicchia «Charly Alberti» (batería). Es considerada por la crítica especializada como la más importante, popular e influyente de las bandas en español de todos los tiempos y una leyenda de la música latina. Fueron el primer grupo de habla hispana en conseguir un éxito masivo en Latinoamérica y tuvieron un papel muy importante en el desarrollo y la difusión del rock iberoamericano y el rock en español durante las décadas de 1980 y 1990. Durante su carrera, fueron vanguardistas y marcaron tendencia en Latinoamérica, en la que protagonizaron diversos géneros como la música divertida de sus inicios, la new wave, el dark, el hard rock, el rock alternativo y el rock electrónico de sus finales.</string>
+    <string name="nombre_black_keys">The Black Keys</string>
+    <string name="descripcion_black_keys">The Black Keys es un banda de rock estadounidense formada en Akron (Ohio) en 2001 y compuesta por Dan Auerbach (voz y guitarra) y Patrick Carney (batería).  El dúo comenzó de forma independiente, grabando música en sótanos y produciendo sus propios álbumes, antes de emerger como una de las bandas más populares de garage rock en la década de 2010. El crudo sonido de blues rock de la banda está relacionado directamente con las influencias de Auerbach, incluyendo a Howlin\' Wolf y Robert Johnson.</string>
+    <string name="nombre_linking_park">Linking Park</string>
+    <string name="descripcion_linking_park">Linkin Park es una banda estadounidense de Rock Alternativo y Nu Metal procedente de Agoura Hills, California. Se formó en 1996. Integrada por Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, Rob Bourdon y Chester Bennington, este último como voz principal. La banda comenzó con sus primeros trabajos musicales de manera independiente, en la que grabaron su primer material, llamado Xero; sin embargo, no tuvieron éxito en la búsqueda de un sello discográfico, ya que nadie mostraba interés por su trabajo. Fue hasta 1999, que con el apoyo de Jeff Blue, el entonces vicepresidente de Warner Records, lograron firmar su primer contrato. El nombre del grupo es un juego de palabras que hace referencia al Lincoln Park en Santa Mónica.</string>
+    <string name="nombre_artista">Black Pumas</string>
+    <string name="nombre_cancion">Contrapunto para humano y computadora</string>
+    <string name="nombre_album">Jueves no viernes</string>
+</resources>
